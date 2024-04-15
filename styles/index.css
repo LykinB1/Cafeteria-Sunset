@@ -1,0 +1,102 @@
+@font-face {
+    font-family: coffee;
+    src: url(../fonts/coffee/Coffee.ttf);
+}
+
+@font-face {
+    font-family: coffeeshop;
+    src: url(../fonts/coffee_shop/Coffee\ Shop\ Bold_Trial\ Version.ttf);
+}
+
+body{
+    background-image: url(../images/backgroundhome.jpg);
+    background-size: cover;
+}
+
+header{
+    height: 130px;
+    margin-bottom: 150px;
+    font-family: coffee;
+}
+
+header img{
+    width: 200px;
+}
+/**/
+
+/*part1*/
+
+#part1{
+    background-color: rgb(228, 243, 255);
+    height: 500px;
+    justify-content: center;
+    margin-bottom: 350px;
+}
+
+#part1 h1{
+    font-family: coffeeshop;
+    font-size: 45px;
+}
+
+#img1 img{
+    width: 900px;
+    justify-content: start;
+}
+
+/**/
+
+/*Part 2*/
+
+.options{
+    display: flex;
+    filter: brightness(75%);
+    width: 350px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.options h1{
+    filter: brightness(100%);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#café{
+    background-image: url(../images/cafés1.jpg);
+    background-size: cover;
+}
+
+#café:hover{
+    background-image: url(../images/cafés1.jpg);
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#milkshake{
+    background-image: url(../images/milkshake1.jpg);
+    background-size: cover;
+}
+
+#milkshake:hover{
+    background-image: url(../images/milkshake1.jpg);
+    background-size: 500px;
+    background-position: center;
+}
+
+#bolo{
+    background-image: url(../images/bolo1.jpg);
+    background-size: cover;
+}   
+
+#bolo:hover{
+    background-image: url(../images/bolo1.jpg);
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
