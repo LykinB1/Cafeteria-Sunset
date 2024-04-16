@@ -1,0 +1,60 @@
+@font-face {
+    font-family: coffee;
+    src: url(../fonts/coffee/Coffee.ttf);
+}
+
+@font-face {
+    font-family: coffeeshop;
+    src: url(../fonts/coffee_shop/Coffee\ Shop\ Bold_Trial\ Version.ttf);
+}
+
+body{
+    background-image: url(../images/backgroundhome.jpg);
+    background-size: cover;
+}
+
+header{
+    height: 130px;
+    margin-bottom: 40px;
+    font-family: coffee;
+}
+
+header img{
+    width: 200px;
+}
+
+#link-home2{
+    color: white;
+}
+
+/**/
+
+/*sobrenos*/
+
+#carouselExample{
+    border-bottom: solid 10px rgb(255, 255, 255);
+    border-top: solid 10px rgb(255, 255, 255);
+}
+
+#sobrenos h1{
+    margin-bottom: 120px;
+    color: rgb(0, 0, 0);
+    font-family: coffee;
+}
+
+#sobrenos h4{
+    margin-left: 50px;
+    color: white;
+    font-family: coffeeshop;
+    font-size: 30px;
+}
+
+#sobrenos2{
+    margin-top: 130px;
+}
+
+#sobrenos2 h1{
+    font-family: coffee;
+    color: black;
+}
+
