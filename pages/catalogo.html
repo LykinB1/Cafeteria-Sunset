@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/geral.css">
+    <link rel="stylesheet" href="../styles/catalogo.css">
+</head>
+<body>
+    <header class="d-flex align-items-center">
+        <section>
+            <img src="../images/iconsunset.png" alt="" class="d-flex justify-content-between">
+        </section>
+        <!--Navbar-->
+        <section>
+            <nav class="navbar navbar-expand-lg container-fluid">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav gap-4">
+                            <a class="nav-link fs-4" href="../index.html" id="link-home1">Home</a>
+                            <a class="nav-link fs-4" href="sobrenos.html" id="link-home2">Sobre nos</a>
+                            <a class="nav-link fs-4" href="#" id="link-home3">Catalogo</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!---------->
+    </header>
+    <main>
+        <h1 id="catalogotitle">Catalogo de Produtos</h1>
+        <div id="catalogo" class="">
+            <div id="cafe">
+                <img src="../images/cafécatalogo.jpg" alt="">
+                <h3>Café Expresso</h3>
+                <h5>R$6,50</h5>
+                <button type="button" class="btncatalogo" data-bs-toggle="modal" data-bs-target="#exampleModal">Fazer Pedido</button>
+            </div>
+            <div id="bolo">
+                <img src="../images/fatiadebolo.jpg" alt="">
+                <h3>Fatia de Bolo</h3>
+                <h5>R$12,90</h5>
+                <button type="button" class="btncatalogo" data-bs-toggle="modal" data-bs-target="#exampleModal">Fazer Pedido</button>
+            </div>
+            <div id="milkshake">
+                <img src="../images/milkshake.avif" alt="">
+                <h3>Milkshake de Morango</h3>
+                <h5>R$15,99</h5>
+                <button type="button" class="btncatalogo" data-bs-toggle="modal" data-bs-target="#exampleModal">Fazer Pedido</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Todos os direitos reservados a @Sunset</h3>
+    </footer>
+    <div id="Modal">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Sunset</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Pedido adicionado!
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-primary">Fechar Pedido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

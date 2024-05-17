@@ -1,0 +1,112 @@
+@font-face {
+    font-family: coffee;
+    src: url(../fonts/coffee/Coffee.ttf);
+}
+
+@font-face {
+    font-family: coffeeshop;
+    src: url(../fonts/coffee_shop/Coffee\ Shop\ Bold_Trial\ Version.ttf);
+}
+
+body{
+    background-image: url(../images/backgroundhome.jpg);
+    background-size: cover;
+}
+
+header{
+    height: 130px;
+    margin-bottom: 150px;
+    font-family: coffee;
+}
+
+header img{
+    width: 200px;
+}
+
+#link-home3{
+    color: white;
+}
+/**/
+
+/* Catálogo */
+
+#catalogotitle{
+    font-family: coffee;
+    margin-left: 100px;
+    margin-bottom: 170px;
+}
+
+#catalogo{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 150px;
+}
+
+#cafe{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+#cafe h3{
+    font-family: coffeeshop;
+}
+
+#cafe img{
+    width: 400px;
+    border: solid 3px;
+}
+
+#bolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bolo h3{
+    font-family: coffeeshop;
+}
+
+#bolo img{
+    width: 565px;
+    border: solid 3px;
+}
+
+#milkshake{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#milkshake h3{
+    font-family: coffeeshop;
+}
+
+#milkshake img{
+    width: 450px;
+    border: solid 3px;
+}
+
+.btncatalogo{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: rgb(29, 223, 29);
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    height: 100px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
